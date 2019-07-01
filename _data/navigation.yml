@@ -2,8 +2,13 @@
 main:
 
   - title: "Machine Learning"
-    url: /ml/
-
+    url: /ml/    
+     - title: Docker
+        url: /docker/
+      - title: Kubernetes
+        url: /kubernetes/
+      - title: OpenStack
+        url: /openstack/
   - title: "Deep Learning"
     url: /dl/
 
