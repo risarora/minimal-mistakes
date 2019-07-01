@@ -1,12 +1,38 @@
-# main links
+# main links links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+  - title: "Machine Learning"
+    url: /ml/
+
+  - title: "Deep Learning"
+    url: /dl/
+
+  - title: "Data Engineering"
+    url: /bgd/
+
+  - title: "Big Data"
+    url: /bdt/
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "CV"
+    url: https://risarora.github.io/assets/images/CV-Rishi.pdf
+
+  - title: "Search"
+    url: /search/
+
+sidebar-sample:
+  - title: "Data Science"
+    children:
+      - title: "Machine Learning"
+        url: /ml/
+      - title: "Deep Learning"
+        url: /dl/
+  - title: "Data Engineering"
+    url: /bgd/
+  - title: "Entrepreneurship"
+  - title: "Projects"
+    url: /projects/
+  - title: "CV"
+    url: /cv/
