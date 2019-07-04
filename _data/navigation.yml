@@ -21,14 +21,19 @@ main:
   - title: "Search"
     url: /search/
 
-
-sidebar-sample:
+my-sidebar:
   - title: "Data Science"
     children:
       - title: "Machine Learning"
         url: /ml/
       - title: "Deep Learning"
         url: /dl/
+  - title: "Big Data"
+    children:
+      - title: "Hadoop"
+        url: /bdt/hadoop/
+      - title: "Hive"
+        url: /bdt/hive/
 
   - title: "Cheat Sheets"
     url: /cheetsheets/

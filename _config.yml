@@ -106,9 +106,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Rishi Arora"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Data Scientist."
   location         : "Delhi"
   email            :
   links:
@@ -320,7 +320,7 @@ sidebar:
     text: "Some text here."
   - title: "Another Title"
     text: "More text here."
-    nav: sidebar-sample
+    nav: my-sidebar
 
 
 

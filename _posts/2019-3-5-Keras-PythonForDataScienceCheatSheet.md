@@ -3,7 +3,7 @@ published: true
 title: Keras Quick Reference
 collection: dl
 layout: single
-author_profile: true
+author_profile: 
 read_time: true
 categories: [cheetsheets]
 excerpt : "Keras Quick Reference"

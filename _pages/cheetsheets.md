@@ -6,7 +6,7 @@ author_profile: false
 header :
     image: "https://risarora.github.io/assets/images/cheetsheets_head.png"
 sidebar:
-    nav: sidebar-sample
+    nav: my-sidebar
 ---
 
 # cheat_sheets
