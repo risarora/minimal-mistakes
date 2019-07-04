@@ -5,7 +5,7 @@ collection: hive
 layout: single
 author_profile:
 read_time: true
-categories: [cheetsheets]
+categories: [hive]
 excerpt : "View Hive Table Meta Data"
 header :
     overlay_image: "https://risarora.github.io/assets/images/wolf.jpg"
