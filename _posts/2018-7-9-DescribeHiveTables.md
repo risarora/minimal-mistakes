@@ -22,10 +22,10 @@ sidebar:
 
 ---
 
-## Describe Hive Table
-There are three ways to describe a table in Hive.
+## View Hive Table Meta Data
+Below are the ways we can view the hive table meta data.
 
-#### 1. View Columns Names
+### 1. View Columns Names
 To see table primary info of Hive table, use describe table_name; command
 
 ```
@@ -37,7 +37,7 @@ dept_id             	string
 Time taken: 0.503 seconds, Fetched: 3 row(s)
 
 ```
-#### 2. View Column Names and Meta Data
+### 2. View Column Names and Meta Data
 To view detailed information about the table, use describe extended table_name; command
 
 ```
@@ -52,7 +52,7 @@ Time taken: 0.799 seconds, Fetched: 6 row(s)
 
 ```
 
-#### 3. View Columns Names and Formatted Meta Data
+### 3. View Columns Names and Formatted Meta Data
 To see code in a clean manner use describe formatted table_name; command to see all information also describe all details in a clean manner.
 
 ```
@@ -96,7 +96,7 @@ Time taken: 0.64 seconds, Fetched: 34 row(s)
 hive>
 ```
 
-#### 4. View Table Create Query
+### 4. View Table Create Query
 To View the query to create the table again for review or creating similar tables we can use the command.
 <mark>show create table < **TABLE NAME** >;</mark>
 
