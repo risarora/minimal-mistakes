@@ -1,3 +1,22 @@
+---
+published: true
+title: Scikit-Learn Cheat Sheet
+collection: dl
+layout: single
+author_profile: false
+read_time: true
+categories: [cheetsheets]
+excerpt : "Scikit-Learn Cheat Sheet"
+header :
+    overlay_image: "https://risarora.github.io/assets/images/wolf.jpg"
+    teaser: "https://risarora.github.io/assets/images/wolf.jpg"
+comments : true
+toc: true
+toc_sticky: true
+sidebar:
+    nav: sidebar-sample
+---
+
 ## Scikit-Learn Cheat Sheet
 
 Scikit-learn is an open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms using a unified interface.
