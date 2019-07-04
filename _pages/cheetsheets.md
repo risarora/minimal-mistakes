@@ -9,7 +9,7 @@ Shortcuts](https://risarora.github.io/cheetsheets/2019-3-5-jupyter_Shortcuts/)
 A collection of [Keras -Python for Data Science Cheetsheet](./cheetsheets/Keras-PythonForDataScienceCheatSheet/)
 
 ### seaborn CheatSheet
-A collection of seabornCheatSheet [cheetsheet](https://risarora.github.io/cheetsheets/seabornCheatSheet)
+A collection of seaborn CheatSheet [cheetsheet](https://risarora.github.io/cheetsheets/seabornCheatSheet)
 
 ### Numpy Basics CheatSheet
 A collection of NumpyBasicsCheatSheet [cheetsheet](https://risarora.github.io/cheetsheets/NumpyBasicsCheatSheet)
