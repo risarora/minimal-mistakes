@@ -13,8 +13,13 @@ header :
 comments : true
 toc: true
 toc_sticky: false
+toc_min_header: 2
+toc_max_header: 2
+toc_sticky: true
+
 sidebar:
     nav: sidebar-sample
+
 ---
 
 ## Scikit-Learn Cheat Sheet
