@@ -1,3 +1,14 @@
+---
+title: Machine Learning CheetSheets
+layout: single
+permalink: /cheetsheets/
+author_profile: false
+header :
+    image: "https://risarora.github.io/assets/images/cheetsheets_head.png"
+sidebar:
+    nav: sidebar-sample
+---
+
 # cheat_sheets
 A collection of handy cheat sheets for programming, data science, version control, statistics, and probability.
 
