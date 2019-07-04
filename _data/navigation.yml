@@ -31,9 +31,9 @@ my-sidebar:
   - title: "Big Data"
     children:
       - title: "Hadoop"
-        url: /bdt/hadoop/
+        url: /hadoop/
       - title: "Hive"
-        url: /bdt/hive/
+        url: /hive/
 
   - title: "Cheat Sheets"
     url: /cheetsheets/
