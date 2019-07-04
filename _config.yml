@@ -327,3 +327,5 @@ sidebar:
     toc: true
     toc_label: "My Table of Contents"
     toc_icon: "cog"
+    toc_min_header: 1
+    toc_max_header: 3

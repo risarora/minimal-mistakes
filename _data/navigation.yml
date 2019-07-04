@@ -29,5 +29,9 @@ sidebar-sample:
         url: /ml/
       - title: "Deep Learning"
         url: /dl/
+
+  - title: "Cheat Sheets"
+    url: /cheetsheets/
+
   - title: "CV"
     url: /cv/
