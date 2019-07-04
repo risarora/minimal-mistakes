@@ -1,11 +1,10 @@
 # main links links
 main:
-  - title: "Data Science"
-    children:
-      - title: "Machine Learning"
-        url: /ml/
-      - title: "Deep Learning"
-        url: /dl/
+  - title: "Machine Learning"
+    url: /ml/
+
+  - title: "Deep Learning"
+    url: /dl/
 
   - title: "Cheat Sheets"
     url: /cheetsheets/
