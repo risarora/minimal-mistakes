@@ -22,6 +22,7 @@ main:
   - title: "Search"
     url: /search/
 
+
 sidebar-sample:
   - title: "Data Science"
     children:
