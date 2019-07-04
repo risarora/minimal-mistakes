@@ -123,29 +123,29 @@ model3 = Sequential()
 ### Multilayer Perceptron (MLP)
 #### Binary Classification
 ```
->>> from keras.layers import Dense
->>> model.add(Dense(12,
+ from keras.layers import Dense
+ model.add(Dense(12,
  input_dim=8,
  kernel_initializer='uniform',
  activation='relu'))
->>> model.add(Dense(8,kernel_initializer='uniform',activation='relu'))
->>> model.add(Dense(1,kernel_initializer='uniform',activation='sigmoid'))
+ model.add(Dense(8,kernel_initializer='uniform',activation='relu'))
+ model.add(Dense(1,kernel_initializer='uniform',activation='sigmoid'))
 ```
 
 #### Multi-Class Classification
 ```
->>> from keras.layers import Dropout
->>> model.add(Dense(512,activation='relu',input_shape=(784,)))
->>> model.add(Dropout(0.2))
->>> model.add(Dense(512,activation='relu'))
->>> model.add(Dropout(0.2))
->>> model.add(Dense(10,activation='softmax'))
+ from keras.layers import Dropout
+ model.add(Dense(512,activation='relu',input_shape=(784,)))
+ model.add(Dropout(0.2))
+ model.add(Dense(512,activation='relu'))
+ model.add(Dropout(0.2))
+ model.add(Dense(10,activation='softmax'))
 ```
 
 #### Regression
 ```
->>> model.add(Dense(64,activation='relu',input_dim=train_data.shape[1]))
->>> model.add(Dense(1))
+ model.add(Dense(64,activation='relu',input_dim=train_data.shape[1]))
+ model.add(Dense(1))
 ```
 
 ### Convolutional Neural Network (CNN)
@@ -246,9 +246,9 @@ model3.predict_classes(x_test4,batch_size=32)
 
 ## Save/Reload
 ```
->>> from keras.models import load_model
->>> model3.save('model_file.h5')
->>> my_model = load_model('my_model.h5')
+ from keras.models import load_model
+ model3.save('model_file.h5')
+ my_model = load_model('my_model.h5')
 ```
 
 

@@ -17,7 +17,7 @@ A collection of [jupyter Notebook
 Shortcuts](https://risarora.github.io/cheetsheets/2019-3-5-jupyter_Shortcuts/)
 
 ### Keras
-A collection of [Keras -Python for Data Science Cheetsheet](./cheetsheets/Keras-PythonForDataScienceCheatSheet/)
+A quick reference guide for Keras [Keras -Python for Data Science Quick Reference ](./Keras-PythonForDataScienceCheatSheet/)
 
 ### seaborn CheatSheet
 A collection of seaborn CheatSheet [cheetsheet](https://risarora.github.io/cheetsheets/seabornCheatSheet)
