@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "My Machine Learning musings"
 title_separator          : "-"
 name                     : "Rishi Arora"
 description              : "My Journey into the realms of Data Science and Big Data."
