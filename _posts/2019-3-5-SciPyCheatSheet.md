@@ -1,9 +1,23 @@
-SciPy Cheat Sheet
-Interacting With NumPy Also see NumPy
-The SciPy library is one of the core packages for
-scientific computing that provides mathematical
-algorithms and convenience functions built on the
-NumPy extension of Python.
+---
+published: true
+title: SciPy Cheat Sheet
+layout: single
+author_profile: false
+read_time: true
+excerpt : "SciPy Cheat Sheet"
+comments : true
+toc: true
+toc_sticky: true
+sidebar:
+    nav: sidebar-sample
+---
+
+
+# SciPy Cheat Sheet
+
+The SciPy library is one of the core packages for scientific computing that provides mathematical
+algorithms and convenience functions built on theNumPy extension of Python. NumPy extension of Python.
+
 Index Tricks
 * <code>np.mgrid[0:5,0:5] Create a dense meshgrid</code>
 * <code>np.ogrid[0:2,0:2] Create an open meshgrid</code>
