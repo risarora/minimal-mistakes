@@ -1,7 +1,7 @@
 ---
 title: Hive
 layout: single
-permalink: /BigData-Hive/
+permalink: /hive/
 author_profile: false
 header :
     image: "https://risarora.github.io/assets/images/cheetsheets_head.png"
