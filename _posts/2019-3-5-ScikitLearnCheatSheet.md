@@ -1,7 +1,7 @@
 ---
 published: true
 title: Scikit-Learn Cheat Sheet
-collection: dl
+collection: cheetsheet
 layout: single
 author_profile: false
 read_time: true
@@ -18,7 +18,7 @@ toc_max_header: 2
 toc_sticky: true
 
 sidebar:
-    nav: sidebar-sample
+    nav: my-sidebar
 
 ---
 

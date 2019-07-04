@@ -3,7 +3,7 @@ published: true
 title: Keras Quick Reference
 collection: dl
 layout: single
-author_profile: 
+author_profile:
 read_time: true
 categories: [cheetsheets]
 excerpt : "Keras Quick Reference"
@@ -18,7 +18,7 @@ toc_max_header: 2
 toc_sticky: true
 
 sidebar:
-    nav: sidebar-sample
+    nav: my-sidebar
 
 ---
 
