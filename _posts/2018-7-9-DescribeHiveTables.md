@@ -25,7 +25,8 @@ sidebar:
 ## Describe Hive Table
 There are three ways to describe a table in Hive.
 
-#### 1. To see table primary info of Hive table, use describe table_name; command
+#### 1. View Columns Names
+To see table primary info of Hive table, use describe table_name; command
 
 ```
 hive> describe employeeX;
@@ -36,7 +37,8 @@ dept_id             	string
 Time taken: 0.503 seconds, Fetched: 3 row(s)
 
 ```
-#### 2. To view detailed information about the table, use describe extended table_name; command
+#### 2. View Column Names and Meta Data
+To view detailed information about the table, use describe extended table_name; command
 
 ```
 hive> describe extended employeeX;
@@ -50,8 +52,8 @@ Time taken: 0.799 seconds, Fetched: 6 row(s)
 
 ```
 
-#### 3. To see code in a clean manner use describe formatted table_name; command to see all information.
-also describe all details in a clean manner.
+#### 3. View Columns Names and Formatted Meta Data
+To see code in a clean manner use describe formatted table_name; command to see all information also describe all details in a clean manner.
 
 ```
 hive> describe formatted  employeeX;
@@ -95,10 +97,11 @@ hive>
 ```
 
 #### 4. View Table Create Query
+To View the query to create the table again for review or creating similar tables we can use the command.
+<mark>show create table < **TABLE NAME** >;</mark>
 
 ```
-hive>
-    > show create table employeeX;
+hive>show create table employeeX;
 OK
 CREATE TABLE `employeeX`(
   `emp_id` bigint,
