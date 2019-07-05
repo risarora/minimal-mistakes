@@ -1,3 +1,27 @@
+---
+published: true
+title: Optimizing Joins in hive
+collection: hive
+layout: single
+author_profile:
+read_time: true
+categories: [hive]
+excerpt : "Optimizing Joins in hive/Sorting Java Heap issues with hive joins"
+header :
+    overlay_image: "https://risarora.github.io/assets/images/wolf.jpg"
+    teaser: "https://risarora.github.io/assets/images/wolf.jpg"
+comments : true
+toc: true
+toc_sticky: false
+toc_min_header: 2
+toc_max_header: 2
+toc_sticky: true
+
+sidebar:
+    nav: my-sidebar
+---
+
+
 ## Optimizing Joins in hive/Sorting Java Heap issues with hive joins
 In hadoop we tend to use hive extensively since it is SQL like language and easier in framing our jobs with stored structured data. (Even Pig is great but still needs a little time to get comfortable with Pig Latin). But as beginners we often get struck with hive joins in large data sets. It is a common scenario running into out of memory/java heap space errors on joins with huge hive tables. We can avoid these bottlenecks to a greater extent utilizing a few smarter options available with hive. Let us look into a few of them.
 

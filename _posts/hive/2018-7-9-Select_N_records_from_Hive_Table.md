@@ -1,3 +1,27 @@
+---
+published: true
+title: Select Top N records from Hive Table
+collection: hive
+layout: single
+author_profile:
+read_time: true
+categories: [hive]
+excerpt : "Select Top N records from Hive"
+header :
+    overlay_image: "https://risarora.github.io/assets/images/wolf.jpg"
+    teaser: "https://risarora.github.io/assets/images/wolf.jpg"
+comments : true
+toc: true
+toc_sticky: false
+toc_min_header: 2
+toc_max_header: 2
+toc_sticky: true
+
+sidebar:
+    nav: my-sidebar
+---
+
+
 ## Select Top N records from Hive Table
 
 ### Create a Hive table and insert some records

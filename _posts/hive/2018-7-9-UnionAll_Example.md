@@ -1,3 +1,27 @@
+---
+published: true
+title: UNION Operations in Hive Tables
+collection: hive
+layout: single
+author_profile:
+read_time: true
+categories: [hive]
+excerpt : "UNION ALL usage in Hive"
+header :
+    overlay_image: "https://risarora.github.io/assets/images/wolf.jpg"
+    teaser: "https://risarora.github.io/assets/images/wolf.jpg"
+comments : true
+toc: true
+toc_sticky: false
+toc_min_header: 2
+toc_max_header: 2
+toc_sticky: true
+
+sidebar:
+    nav: my-sidebar
+---
+
+
 ## UNION ALL usage in Hive
 
 UNION ALL is used to combine the result from multiple SELECT statements into a single result set.

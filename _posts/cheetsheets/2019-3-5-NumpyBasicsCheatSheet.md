@@ -1,3 +1,28 @@
+---
+published: true
+title: NumPy Quick Reference
+collection: dl
+layout: single
+author_profile:
+read_time: true
+categories: [cheetsheets]
+excerpt : "NumPy Quick Reference"
+header :
+    overlay_image: "https://risarora.github.io/assets/images/wolf.jpg"
+    teaser: "https://risarora.github.io/assets/images/wolf.jpg"
+comments : true
+toc: true
+toc_sticky: false
+toc_min_header: 2
+toc_max_header: 2
+toc_sticky: true
+
+sidebar:
+    nav: my-sidebar
+
+---
+
+
 # NumPy Cheat Sheet
 
 The NumPy library is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with these arrays.

@@ -1,4 +1,27 @@
-### Python For Data Science Cheat Sheet
+---
+published: true
+title: Seaborn Quick Reference
+collection: dl
+layout: single
+author_profile:
+read_time: true
+categories: [cheetsheets]
+excerpt : "Seaborn Quick Reference Guide"
+header :
+    overlay_image: "https://risarora.github.io/assets/images/wolf.jpg"
+    teaser: "https://risarora.github.io/assets/images/wolf.jpg"
+comments : true
+toc: true
+toc_sticky: false
+toc_min_header: 2
+toc_max_header: 2
+toc_sticky: true
+
+sidebar:
+    nav: my-sidebar
+
+---
+
 #Statistical Data Visualization With Seaborn
 
 
