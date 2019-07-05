@@ -207,7 +207,9 @@ collections:
   bdt:
     output: true
     permalink: /:collection/:path/
-
+  hive:
+    output: true
+    permalink: /:collection/_posts/:path/
 
 # Conversion
 markdown: kramdown
