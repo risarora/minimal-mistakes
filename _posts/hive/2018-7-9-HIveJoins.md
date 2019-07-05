@@ -119,13 +119,17 @@ join item_details ON (sales_details.item_code = item_details.item_code);
 ```
  select sales_details.*, item_details.* from sales_details left outer join item_details ON (sales_details.item_code = item_details.item_code);
 ```
+
 #### right outer join
- ```
- select sales_details.*, item_details.* from sales_details right outer join item_details ON (sales_details.item_code = item_details.item_code);
- ```
+
+```
+select sales_details.*, item_details.* from sales_details right outer join item_details ON (sales_details.item_code = item_details.item_code);
+```
+
 #### full outer join
- ```
- select sales_details.*, item_details.* from sales_details full outer join item_details ON (sales_details.item_code = item_details.item_code);
+
+```
+select sales_details.*, item_details.* from sales_details full outer join item_details ON (sales_details.item_code = item_details.item_code);
 ```
 
 ### SEMI JOIN
