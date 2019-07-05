@@ -1,16 +1,45 @@
-## JOINS
+---
+published: true
+title: Joins in Hive
+collection: hive
+layout: single
+author_profile:
+read_time: true
+categories: [hive]
+excerpt : "Joins in Hive"
+header :
+    overlay_image: "https://risarora.github.io/assets/images/wolf.jpg"
+    teaser: "https://risarora.github.io/assets/images/wolf.jpg"
+comments : true
+toc: true
+toc_sticky: false
+toc_min_header: 2
+toc_max_header: 2
+toc_sticky: true
+
+sidebar:
+    nav: my-sidebar
+
+---
+
+# JOINS
+Hive supports a number of joins as any sql database
+
+## Types of Joins Supported by Hive
 
 * INNER JOIN
-
 * OUTER JOIN
   * left outer join
   * right outer join
   * full outer join
-
 * SEMI JOIN
-Hive does not provide 'IN' Clause instead provides  for SEMI INNER JOIN
-select * from item_details LEFT SEMI JOIN sales_details ON (sales_details.item_code= item_details.item_code);
+Hive does not provide 'IN' Clause instead provides for SEMI INNER JOIN   
 
+Eg:-
+```
+select * from item_details LEFT SEMI JOIN sales_details ON (sales_details.item_code= item_details.item_code);
+```
+## Code Examples
 #### Create the Tables
 ```
 Create table if not exists Sales_Details (
@@ -72,26 +101,34 @@ select name,sales,item_code from sales_details ;
 select Name,item_code,Price from item_details ;
 ```
 
+<!--
 #### JOIN
 ```
 select name,sales,item_code from sales_details ;
 join item_details ON (sales_details.item_code = item_details.item_code);
 ```
-
-##### INNER JOIN
+-->
+### INNER JOIN
 
 ```
  select sales_details.*, item_details.* from sales_details join item_details ON (sales_details.item_code = item_details.item_code);
 ```
-##### OUTER JOIN
+### OUTER JOIN
 
+#### left outer join
 ```
  select sales_details.*, item_details.* from sales_details left outer join item_details ON (sales_details.item_code = item_details.item_code);
+ ```
+ #### right outer join
+ ```
  select sales_details.*, item_details.* from sales_details right outer join item_details ON (sales_details.item_code = item_details.item_code);
+ ```
+ #### full outer join
+ ```
  select sales_details.*, item_details.* from sales_details full outer join item_details ON (sales_details.item_code = item_details.item_code);
 ```
 
-##### SEMI JOIN
+### SEMI JOIN
 
 Hive does not provide 'IN' Clause instead provides  for SEMI INNER JOIN
 ```
@@ -102,7 +139,7 @@ ToothPaste              102     76
 ToothBrush              103     50
 ```
 
-#### Sub queries:
+### Sub queries:
 A Query present within a Query is known as a sub query. The main query will depend on the values returned by the subqueries.
 
 Hive does have a support of SUB-QUERIES from version-0.13. So you can use this version. Or you can try this query:
@@ -128,7 +165,8 @@ Subquery in WHERE clause
 SELECT <column names 1, 2…n> From<TableName_Main>WHERE col1 IN (SubQuery);
 ```
 * Example:
-
+```
 SELECT col1 FROM (SELECT a+b AS col1 FROM t1) t2
+```
 
 Source : https://www.guru99.com/hive-join-subquery.html
