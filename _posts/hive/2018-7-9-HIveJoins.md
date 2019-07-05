@@ -6,7 +6,7 @@ layout: single
 author_profile:
 read_time: true
 categories: [hive]
-excerpt : "Joins in Hive"
+excerpt : "Types of Joins supported by Hive"
 header :
     overlay_image: "https://risarora.github.io/assets/images/wolf.jpg"
     teaser: "https://risarora.github.io/assets/images/wolf.jpg"
@@ -118,12 +118,12 @@ join item_details ON (sales_details.item_code = item_details.item_code);
 #### left outer join
 ```
  select sales_details.*, item_details.* from sales_details left outer join item_details ON (sales_details.item_code = item_details.item_code);
- ```
- #### right outer join
+```
+#### right outer join
  ```
  select sales_details.*, item_details.* from sales_details right outer join item_details ON (sales_details.item_code = item_details.item_code);
  ```
- #### full outer join
+#### full outer join
  ```
  select sales_details.*, item_details.* from sales_details full outer join item_details ON (sales_details.item_code = item_details.item_code);
 ```
