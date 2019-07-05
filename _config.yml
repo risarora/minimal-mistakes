@@ -209,7 +209,7 @@ collections:
     permalink: /:collection/:path/
   hive:
     output: true
-    permalink: /:collection/_posts/:path/
+    permalink: /:collection/:path/
 
 # Conversion
 markdown: kramdown
